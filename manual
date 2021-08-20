@@ -1,0 +1,7 @@
+git clone https://github.com/pirvanm/jew
+composer install
+renme din .envRenam in .env
+in .env DB_DATABASE=proiect pui numele bazei de date 
+php artisan migrate
+php artisan  key:generate
+php artisan serve 
